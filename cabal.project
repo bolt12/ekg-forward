@@ -24,3 +24,13 @@ test-show-details: direct
 
 tests: True
 benchmarks: True
+
+source-repository-package
+   type: git
+   location: https://github.com/input-output-hk/ouroboros-network
+   tag: 36dd348789a84a87ca6b9eb33b69a224fbd47ca0
+   --sha256: sha256-J0aTtl1m+UN0AJyQr6iYUNOIVWuiT14U7VNwGPdhuDs=
+   subdir:
+     network-mux
+     ouroboros-network-api
+     ouroboros-network-framework

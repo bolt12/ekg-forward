@@ -65,6 +65,8 @@ library
                        , io-classes >= 0.3
                        , network
                        , ouroboros-network-framework >= 0.2
+                       , ouroboros-network-api
+                       , network-mux
                        , serialise
                        , stm
                        , text
